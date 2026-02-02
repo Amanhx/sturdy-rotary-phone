@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export async function POST(req) {
   const { user } = await req.json();
-  const botToken = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN'; // Replace or use env var
-  const chatId = process.env.CHAT_ID || 'YOUR_CHAT_ID'; // Your backup chat ID
+  const botToken = process.env.BOT_TOKEN || '7893064447:AAF9Ow7DltjcaL3bxL1PnjUWhXyKdiHfOtU'; // Replace or use env var
+  const chatId = process.env.CHAT_ID || '6764202082'; // Your backup chat ID
 
   try {
     await axios.post(
